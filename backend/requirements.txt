@@ -1,6 +1,6 @@
 Django==4.2            # Framework web principal (version stable)
 djangorestframework==3.15  # API REST avec Django
-psycopg2-binary==2.9   # Driver PostgreSQL pour PostGIS
+psycopg2-binary==2.9.10
 django-cors-headers==4.7  # Gestion du CORS entre React et Django
 gunicorn==22.0        # Serveur WSGI pour exécuter Django en production
 python-dotenv==1.0 #Read key-value pairs from a .env file and set them as environment variables
